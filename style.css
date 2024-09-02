@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 70%;
+    margin: auto;
+    height: 100vh;
+}
+
+.body2{
+    background-image: url(img/fundo2.png);
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50%;
+    margin: 1.5em;
+}
+
+.body_home{
+    background-image: url(img/fundo.png);
+}
+
+.container_capa{
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    display: flex;
+    margin: 2em;
+    flex-direction: column;
+}
+
+p{
+    margin: 0.7em auto;
+}
+
+footer{
+    text-align: center;
+}
+
+ol{
+    margin: 0.5em 2.3em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+button{
+    width: 6em;
+}
